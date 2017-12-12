@@ -28,6 +28,10 @@
             <param-name>allowedHeaders</param-name>
             <param-value>origin, content-type, accept</param-value>
         </init-param>
+        <init-param>
+            <param-name>chainPreflight</param-name>
+            <param-value>false</param-value>
+        </init-param>
     </filter>
     <filter-mapping>
         <filter-name>cross-origin</filter-name>
